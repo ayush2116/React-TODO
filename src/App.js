@@ -16,9 +16,7 @@ function App() {
     filterHandler();
   },[todos,status]);
 
-    // const saveLocalTodos = () => {
-    //   if(localStorage.getItems('todo'))
-    // }
+    
     const filterHandler = () => {
       switch(status){
         case 'completed':
